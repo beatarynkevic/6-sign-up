@@ -1,5 +1,12 @@
 body {
     background-color: #4ABBDE;
+    background-image: url(../back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
 }
     .container {
         display: inline-block;
@@ -12,8 +19,11 @@ body {
             display: inline-block;
             width: 40%;
             padding: 40px;
-            margin-top: 20px;
-            background-color: #0047A5;
+            margin: 0;
+            background-image: url(../back.png);
+            background-color: #4ABBDE;
+            background-repeat: no-repeat;
+            background-size: cover;
             color: #ffffff;
             position: absolute;
             top: 30px;
