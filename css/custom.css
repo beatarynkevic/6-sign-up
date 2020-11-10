@@ -1,28 +1,38 @@
 body {
-    background-color: #6D2A83;
+    background-color: #4ABBDE;
 }
     .container {
         display: inline-block;
         width: 800px;
         margin-top: 100px;
-        margin-left: calc((100% - 800px) /2);
-        background-color: #ffffff;
+        margin-left: calc((100% - 800px) / 2);
+        position: relative;
     }
         .left-column {
             display: inline-block;
             width: 40%;
-            float: left;
+            padding: 40px;
             margin-top: 20px;
-            background-color: yellow;
+            background-color: #0047A5;
+            color: #ffffff;
+            position: absolute;
+            top: 30px;
+            bottom: 30px;
         }
             .page-title {
-
+                display: inline-block;
+                width: 100%;
             }
             .bottom-links {
-
+                display: inline-block;
+                width: 100%;
+                position: absolute;
+                bottom: 20px;
+                left: 40px;
+                right: 40px;
             }
                 .bottom-links > .link {
-
+                    color: #ffffff;
                 }
                 .bottom-links > .text {
 
@@ -33,30 +43,18 @@ body {
             width: 60%;
             padding: 60px;
             background-color: white;
-            float: left;
+            float: right;
+            position: relative;
 
         }
             .close {
-
+                display: inline-block;
+                float: right;
+                width: 60px;
+                line-height: 60px;
+                position: absolute;
+                font-size: 30px;
+                text-align: center;
+                top: 0;
+                right: 0;
             }
-            .form {
-
-            }
-                .form-row {
-
-                }
-                    .label {
-
-                    }
-                    .input {
-
-                    }
-                    .btn{
-
-                    }
-                    .form-row > .text {
-
-                    }
-                    .form-row > .link {
-
-                    }
